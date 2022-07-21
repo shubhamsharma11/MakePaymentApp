@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693886921787",
+    "project_id": "makepayment-41859",
+    "storage_bucket": "makepayment-41859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693886921787:android:d760c3a4235eecb60c801e",
+        "android_client_info": {
+          "package_name": "com.example.makepayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693886921787-9u4a3c21f12h6gu293m3i8h49vql4ajm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSuDDDk4XA0eatJ86y9bEWbkPa_fene0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693886921787-9u4a3c21f12h6gu293m3i8h49vql4ajm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
