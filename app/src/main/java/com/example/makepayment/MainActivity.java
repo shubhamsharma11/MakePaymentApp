@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private User userData;
     private Merchant merchantData;
 
-    final int UPI_PAYMENT = 0;
+    final int UPI_PAYMENT = 1;
 
     // creating a variable for
     // our Firebase Database.
@@ -113,10 +113,14 @@ public class MainActivity extends AppCompatActivity {
     void payUsingUpi(String amount, String upiId, String name, String note) {
 
         Uri uri = Uri.parse("upi://pay").buildUpon()
-                .appendQueryParameter("pa", upiId)
-                .appendQueryParameter("pn", name)
+                .appendQueryParameter("pa", "9926426099@okbizaxis") // upiId 9926426099@okbizaxis 9926426099@ybl
+                .appendQueryParameter("pn", "9926426099@okbizaxis")
+                .appendQueryParameter("mc", "") // Merchant Code
+                .appendQueryParameter("tid", "123456")
+                .appendQueryParameter("tr", "TID" + System.currentTimeMillis())
                 .appendQueryParameter("tn", note)
                 .appendQueryParameter("am", amount)
+                .appendQueryParameter("mam", amount)
                 .appendQueryParameter("cu", "INR")
                 .build();
 
@@ -125,6 +129,10 @@ public class MainActivity extends AppCompatActivity {
 
         // will always show a dialog to user to choose an app
         Intent chooser = Intent.createChooser(upiPayIntent, "Pay with");
+
+        Log.i("chooser", chooser.toString());
+        Log.i("chooser", chooser.getClipData().toString());
+        Log.i("chooser", chooser.getData().toString());
 
         // check if intent resolves
         if(null != chooser.resolveActivity(getPackageManager())) {

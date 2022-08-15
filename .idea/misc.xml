@@ -11,12 +11,17 @@
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/drawable/ic_logout.xml" value="0.143" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/drawable/ic_remove.xml" value="0.143" />
+        <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/drawable/splash_background.xml" value="0.139" />
+        <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/drawable/talkscardback.xml" value="0.1535" />
+        <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/drawable/talkscardbackalt.xml" value="0.1535" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_custom_list_item.xml" value="0.278125" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_history.xml" value="0.20277777777777778" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_home.xml" value="0.209375" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_payment.xml" value="0.1" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_send.xml" value="0.209375" />
+        <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_splash_screen.xml" value="0.209375" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_varification.xml" value="0.209375" />
         <entry key="..\:/Users/Intel/AndroidStudioProjects/MakePayment/app/src/main/res/layout/activity_verify.xml" value="0.209375" />
       </map>
